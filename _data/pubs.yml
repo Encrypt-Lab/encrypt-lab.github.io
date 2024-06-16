@@ -790,13 +790,13 @@
   pdf: EnCBF_Manipulator_ECC_2022.pdf
   projects: [EnergyCBF]
 
-- title: "Realising the role of arms on improving the stability bipedal robots"
-  authors: [Manan Tayal, Shishir Kolathaya]
-  date: 2022-07-01
-  pub-type: conference
-  publisher: "Pre-print"
-  pdf: biped_arm.pdf
-  projects: [LinearPolicyBiped]
+# - title: "Realising the role of arms on improving the stability bipedal robots"
+#   authors: [Manan Tayal, Shishir Kolathaya]
+#   date: 2022-07-01
+#   pub-type: conference
+#   publisher: "Pre-print"
+#   pdf: biped_arm.pdf
+#   projects: [LinearPolicyBiped]
   
 - title: "Force Control for Robust Quadrupedal Locomotion: A Linear Policy Approach"
   authors: [Aditya Shirwatkar*, Vamshi Kumar Kurva*, Devaraju Vinoda, Aman Singh, Aditya Sagi, Himanshu Lodha, Bhavya Giri Goswami, Shivam Sood, Ketan Nehete, Shishir Kolathaya]
@@ -870,13 +870,13 @@
   pdf: c3bf_icc.pdf
   projects: [CollisionConeCBF]
 
-- title: "Reachability Analysis of UAVs through Cluttered Environments"
-  authors: [Kumar Ankit, Shrivathsa M S, Shishir Kolathaya, Debasish Ghose]
-  date: 2024-01-04
-  pub-type: conference
-  publisher: "AIAA SCITECH 2024 Forum"
-  pdf: scitech_24.pdf
-  projects: [Reachability]
+# - title: "Reachability Analysis of UAVs through Cluttered Environments"
+#   authors: [Kumar Ankit, Shrivathsa M S, Shishir Kolathaya, Debasish Ghose]
+#   date: 2024-01-04
+#   pub-type: conference
+#   publisher: "AIAA SCITECH 2024 Forum"
+#   pdf: scitech_24.pdf
+#   projects: [Reachability]
 
 - title: "Stoch BiRo: Design and Control of a low cost bipedal robot"
   authors: [GVS Mothish*, Karthik Rajgopal*, Ravi Kola*, Manan Tayal, Shishir Kolathaya]
