@@ -1,19 +1,51 @@
 ---
 layout: default
 title: Publications
-authors: [zac, jan, brian, Kunal Shah]
+authors: [manan]
 ---
-<p>
+<!--<p>
     <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
-</p>
+</p>-->
 
+<h2> Journal Papers</h2>
 {% assign prev_year = 1000 %}
 {% assign pubs = site.data.pubs | sort: "date" | reverse %}
 <table class="table">
     <tbody>
         {% for pub in pubs %}
-            {% include pub_entry.html pub=pub prev_year=prev_year%}
-            {% assign prev_year = pub.date | date: "%Y" | to_integer %}
+            {% if pub.pub-type == "journal"%}
+                {% include pub_entry.html pub=pub prev_year=prev_year%}
+                {% assign prev_year = pub.date | date: "%Y" | to_integer %}
+            {% endif %} 
         {% endfor %}
     </tbody>
 </table>
+
+<h2> Conference Papers</h2>
+<p> &ast; - The authors have contributed equally </p>
+{% assign prev_year = 1000 %}
+{% assign pubs = site.data.pubs | sort: "date" | reverse %}
+<table class="table">
+    <tbody>
+        {% for pub in pubs %}
+            {% if pub.pub-type != "journal"%}
+                {% include pub_entry.html pub=pub prev_year=prev_year%}
+                {% assign prev_year = pub.date | date: "%Y" | to_integer %}
+            {% endif %} 
+        {% endfor %}
+    </tbody>
+</table>
+
+<!-- {% if pub.pub-type == "conference"%}
+    <h2> Conference Papers</h2>
+    {% assign prev_year = 1000 %}
+    {% assign pubs = site.data.pubs | sort: "date" | reverse %}
+    <table class="table">
+        <tbody>
+            {% for pub in pubs %}
+                {% include pub_entry.html pub=pub prev_year=prev_year%}
+                {% assign prev_year = pub.date | date: "%Y" | to_integer %}
+            {% endfor %}
+        </tbody>
+    </table>
+{% endif %}         -->

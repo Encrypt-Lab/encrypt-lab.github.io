@@ -2,7 +2,13 @@
 layout: default
 title: Research Projects
 ---
+<p>Our lab's research spans across various domains, ranging from hardware development to the creation of controllers utilizing Optimal Controls, learning-based controls, and safety-critical controls. 
+The following projects serve as a testament to this diverse spectrum of work.</p>
 
+<br>
+<br>
+
+<h2>Active Projects</h2>
 <div class="card-columns">
     {% comment %}
     Sort the projects by date, putting those without dates last
@@ -10,6 +16,25 @@ title: Research Projects
     {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
     {% assign projects_by_date = projects_by_date | reverse %}
     {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
+        {% if p.status != "inactive" %}
+            {% include project-card.html project=p %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<br>
+<br>
+
+<h2>Completed Projects</h2>
+<div class="card-columns">
+    {% comment %}
+    Sort the projects by date, putting those without dates last
+    {% endcomment %}
+    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+    {% assign projects_by_date = projects_by_date | reverse %}
+    {% for p in projects_by_date %}
+        {% if p.status == "inactive" %}
+            {% include project-card.html project=p %}
+        {% endif %}
     {% endfor %}
 </div>
