@@ -1,425 +1,392 @@
-zac:
-    display_name: "Zac Manchester"
-    webpage: "http://zacmanchester.com"
-    github: zacmanchester
+#Current Staff members
+mjavale:
+    display_name: "Mohit Javale"
+    webpage: "https://sites.google.com/view/mohitjavale"
+    image: /img/people/mohit_javale.jpg
+    role: staff
+    
+kgarg:
+    display_name: "Kartik Garg"
+    webpage: "https://sites.google.com/view/kartik-garg/home"
+    image: /img/people/Kartik_Garg.jpg
+    role: staff
+    
+ketan:
+    display_name: "Ketan Nehete"
+    webpage: "https://www.linkedin.com/in/ketan-nehete"
+    image: /img/people/ketan_nehete.jpg
+    role: staff
+
+karthikraj:
+    display_name: "Karthik Rajgopal"
+    webpage: "https://www.linkedin.com/in/karthik-rajgopal-1035021ba"
+    image: /img/people/Karthik_Rajgopal.jpg
+    role: staff
+
+namansaxena:
+    display_name: "Naman Saxena"
+    webpage: "https://in.linkedin.com/in/naman-saxena-718b7b175"
+    image: /img/people/naman_saxena.jpg
+    role: staff
+
+abhishekranjan:
+    display_name: "Abhishek Ranjan"
+    webpage: "https://www.linkedin.com/in/ranjan1abhi/"
+    image: /img/people/Abhishek_Ranjan.jpg
+    role: staff
+
+nithin:
+    display_name: "Nithin Vasishta"
+    github: nithin127
+    role: staff
+    image: /img/people/nithin.png
+    
+tejasrao:
+    display_name: "Tejas Rao"
+    webpage: "https://www.linkedin.com/in/tejas-rao-0781201b5/"
+    image: /img/people/Tejas_Rao.jpg
+    role: staff
+
+luckykantnayak:
+    display_name: "Lucky Kant Nayak"
+    webpage: "https://www.linkedin.com/in/lucky-kant-nayak-798827171/"
+    image: /img/people/Lucky_Kant_Nayak.jpg
+    role: staff
+
+amitsawant:
+    display_name: "Amit Sawant"
+    webpage: "https://www.linkedin.com/in/amit-sawant-201677160/"
+    image: /img/people/Amit_Sawant.jpg
+    role: staff
+
+vemuru:
+    display_name: "Srihari Vemuru"
+    role: staff
+    
+ddarji:
+    display_name: "Darshit Darji"
+    role: staff
+    
+vjoshi:
+    display_name: "Vishnu Joshi"
+    role: staff
+
+# Intern 
+narayananpp:
+    display_name: "Narayanan PP"
+    webpage: "https://www.linkedin.com/in/narayanan-pp-504a10164/"
+    image: /img/people/Narayanan_PP.jpg
+    role: intern
+
+# MTech Students
+mothish:
+    display_name: "GVS Mothish"
+    webpage: "https://www.linkedin.com/in/gvs-mothish-536138209/"
+    image: /img/people/GVS_Mothish.jpg
+    role: masters
+    bio: RAS, IISc
+
+sudharsan:
+    display_name: "Sudharsan"
+    webpage: "https://www.linkedin.com/in/gvs-mothish-536138209/"
+    role: masters
+    bio: RAS, IISc
+
+vaishnavb:
+    display_name: "Vaishnav B​"
+    webpage: "https://www.linkedin.com/in/vaishnav-b-55116722a/"
+    role: masters
+    bio: RAS, IISc
+
+shreyanshsharma:
+    display_name: "Shreyansh Sharma​"
+    webpage: "https://www.linkedin.com/in/shreyansh-sharma-4044b0176/"
+    image: /img/people/Shreyansh_Sharma.jpg
+    role: masters
+    bio: RAS, IISc
+
+amishra:
+    display_name: "Aastha Mishra"
+    image: /img/people/Aastha_Mishra.jpg
+    role: masters
+    bio: M Tech (Res)
+
+pkotecha:
+    display_name: "Prakrut Kotecha"
+    webpage: "https://www.linkedin.com/in/prakrut-kotecha-044093189/"
+    image: /img/people/Prakrut_Kotecha.jpg
+    role: masters
+    bio: M Tech (Res)
+
+tirthsyala:
+    display_name: "Tirth Siyala"
+    role: masters
+    bio: M Tech (Res)
+
+# PhD Students
+
+pramod:
+    display_name: "Pramod Pal"
+    webpage: "pramodpal.github.io"
+    github: ppalcx
+    role: phd
+    image: /img/people/pramod.jpg
+    bio: Design of Legged Robots
+
+vamshi:
+    display_name: "Vamshi Kumar Kurva"
+    webpage: "https://vamshikumarkurva.github.io/"
+    role: phd
+    github: vamshikumarkurva
+    image: /img/people/vamshikumar.png
+    bio: Learning Based Control
+
+manan:
+    display_name: "Manan Tayal"
+    webpage: "https://tayalmanan28.github.io/"
+    role: phd
+    github: tayalmanan28
+    image: /img/people/manan.jpg
+    bio: Safe Robot Learning and Control
+
+amansingh:
+    display_name: "Aman Singh"
+    webpage: "https://singhaman1750.github.io/"
+    role: phd
+    image: /img/people/aman-singh.png
+    bio: Design and Control Co-Optimization 
+
+ashirwat:
+    display_name: "Aditya Shirwatkar"
+    webpage: "https://aditya-shirwatkar.github.io/"
+    role: phd
+    image: /img/people/aditya-shirwatkar.png
+    bio: Model Based RL
+
+
+# Alumni
+
+aditya:
+    display_name: "Aditya Sagi"
+    webpage: "https://www.linkedin.com/in/aditya-varma-sagi/"
+    github: adityasagi
+    role:  alum
+    image: /img/people/aditya.jpeg
+    bio: Now at Chirathe Robotics
+
+sangeet:
+    display_name: "Sangeet M"
+    webpage: "https://www.linkedin.com/in/sangeetmpkd7/"
+    role: alum
+    bio: MTech AI, 2023, Now at Siemens Technology
+    
+subho:
+    display_name: "Subhojyoti Khastagir"
+    webpage: "https://www.linkedin.com/in/subhojyoti-khastagir-2a4716152/"
+    role: alum
+    bio: MTech CSA, 2023    
+
+phani:
+    display_name: "Phani M Thontepu"
+    webpage: "https://in.linkedin.com/in/phani-madhusudhan-thontepu-4741ab115"
+    role: alum
+    bio: MTech AI, 2022
+
+ankitpandita:
+    display_name: "Ankit Pandita"
+    webpage: "https://www.linkedin.com/in/ankit-pandita-479830205/"
+    role: alum
+    bio: MTech AI, 2022, Now at LTIMindtree NxT
+
+govindu:
+    display_name: "Palaparthi Govindu"
+    webpage: "https://www.linkedin.com/in/govind100/"
+    role: alum
+    bio: MTech CSA, 2022, Now at Dozee
+    
+devarajuvinoda:
+    display_name: "Devaraju Vinoda"
+    webpage: "https://www.linkedin.com/in/devaraju-vinoda/"
+    role: alum
+    bio: MTech CSA,2022, Now at Oracle
+
+soumya:
+    display_name: "Soumya Rani"
+    webpage: "https://www.linkedin.com/in/soumya-rani/"
+    role: alum
+    bio: MTech CSA, 2021, Now at Quantiphi
+
+
+# Intern-Alumni
+
+ravikola:
+    display_name: "Ravi Kola"
+    role: intern-alum
+
+vedvyas:
+    display_name: "Vedvyas Danturi"
+    role: intern-alum
+
+prakharg:
+    display_name: "Prakhar Goel"
+    webpage: "https://www.linkedin.com/in/prakhar-goel-4616501a5/"
+    github: prakharg01
+    role: intern-alum
+    image: /img/people/prakhar.jpeg
+    bio: Now at Chirathe Robotics
+
+sreehari:
+    display_name: "Sreehari Acharaya"
+    role: intern-alum
+
+amritanshu:
+    display_name: "Amritanshu Jain"
+    role: intern-alum
+    
+raghav:
+    display_name: "Raghav Soni"
+    webpage: "https://www.linkedin.com/in/raghav-soni-0932b71b7/"
+    role: intern-alum
+    image: /img/people/raghav.jpg
+    
+mkoothoor:
+    display_name: "Marck Koothoor"
+    role: intern-alum
+
+toshan:
+    display_name: "Toshan Luktuke"
+    role: intern-alum
+
+
+shashankram:
+    display_name: "Shashank Ramesh"
+    webpage: "https://www.linkedin.com/in/shashank-ramesh-515707145/"
+    role: intern-alum
+
+cvk:
+    display_name: "Chandravaran Kunjeti"
+    webpage: "https://www.linkedin.com/in/chandravaran-kunjeti/"
+    role: intern-alum
+
+prathameshsaraf:
+    display_name: "Prathamesh Saraf"
+    webpage: "https://www.linkedin.com/in/prathamesh-saraf/"
+    role: intern-alum
+    
+yogita:
+    display_name: "Yogita Choudhary"
+    webpage: "https://www.linkedin.com/in/yogita-choudhary-2b48b015a/"
+    role: intern-alum
+
+somnath:
+    display_name: "Somnath Sendhil Kumar"
+    webpage: "https://www.linkedin.com/in/somnathsenku/"
+    role: intern-alum
+
+vishweshn:
+    display_name: "Vishwesh N"
+    role: intern-alum
+
+utkarsh:
+    display_name: "Utkarsh A Mishra"
+    webpage: "https://utkarshmishra04.github.io/research/"
+    role: intern-alum
+    image: /img/people/utkarsh.jpg
+
+himanshulodha:
+    display_name: "Himanshu Lodha"
+    webpage: "https://www.linkedin.com/in/himanshu-lodha-854869159/"
+    role: intern-alum
+
+bhavya:
+    display_name: "Bhavya Giri Goswami"
+    webpage: "https://www.linkedin.com/in/bhavya-giri-goswami/"
+    role: intern-alum
+
+sashank:
+    display_name: "Sashank Tirumala"
+    webpage: "https://www.linkedin.com/in/tirumala1998/"
+    role: intern-alum
+
+tejas:
+    display_name: "Tejas Rane"
+    role: intern-alum
+    image: /img/people/tejas.jpg
+
+avinash:
+    display_name: "Avinash Bhashkar"
+    webpage: "https://www.linkedin.com/in/avinash-bhashkar-674a561ab/"
+    role: intern-alum
+    image: /img/people/avinash.jpg
+
+lokesh:
+    display_name: "Lokesh Krishna"
+    webpage: "https://lok-i.github.io/website/"
+    role: intern-alum
+    image: /img/people/lokesh.jpeg
+
+shivamsood:
+    display_name: "Shivam Sood"
+    webpage: "https://www.linkedin.com/in/shivam-sood-a79866196/"
+    role: intern-alum
+
+dhaivat:
+    display_name: "Dhaivat Dholakiya"
+    webpage: "https://sites.google.com/view/dhaivatdh/home"
+    role: intern-alum
+
+abhik:
+    display_name: "Abhik Singla"
+    webpage: "https://sites.google.com/view/abhiksingla/home"
+    role: intern-alum
+
+shounak:
+    display_name: "Shounak Bhattacharya"
+    webpage: "https://www.linkedin.com/in/shounakbh/"
+    role: intern-alum
+
+abhimanyu:
+    display_name: "Abhimanyu"
+    role: intern-alum
+
+kartik:
+    display_name: "Kartik Paigwar"
+    webpage: "https://kartikpaigwar.github.io/"
+    role: intern-alum
+
+ajay:
+    display_name: "Ajay Gunalan"
+    webpage: "https://ajaygunalan.github.io/"
+    role: intern-alum
+
+# Profs
+
+shishir:
+    display_name: "Shishir Kolathaya (HEAD)"
+    webpage: "https://shishirny.github.io/"
+    github: shishirny
     role: faculty
-    image: /img/people/zac.jpg
+    image: /img/people/shishir.jpg
     bio: Assistant Professor
 
-taylor:
-    display_name: "Taylor Howell"
-    webpage: "https://thowell.github.io"
-    github: thowell
-    role: alum
-    image: /img/people/taylor.jpg
-    bio: Model-predictive Control and Differentiable Simulators for Contact
+bharadwaj:
+    display_name: "Bharadwaj Amrutur"
+    webpage: "https://aml.ece.iisc.ac.in/index.php/Bharadwaj_Amrutur"
+    #github: shishirny
+    role: faculty
+    image: /img/people/bharadwaj.jpg
+    bio: Professor
 
-brian:
-    display_name: "Brian Jackson"
-    webpage: "https://bjack205.github.io"
-    github: bjack205
-    role: alum
-    image: /img/people/brian.jpg
-    bio: Albedo Space
+shalabh:
+    display_name: "Shalabh Bhatnagar"
+    webpage: "https://www.csa.iisc.ac.in/~shalabh/"
+    role: faculty
+    image: /img/people/shalabh.jpg
+    bio: Professor
 
-max:
-    display_name: "Max Holliday"
-    webpage: "https://github.com/maholli"
-    github: maholli
-    role: alum
-    image: /img/people/max.jpg
-    bio: NASA Ames
-
-simon:
-    display_name: "Simon Le Cleac'h"
-    webpage: "https://simon-lc.github.io/"
-    github: simon-lc
-    role: alum
-    image: /img/people/simon.jpg
-    bio: Boston Dynamics AI Institute
-
-andrew:
-    display_name: "Andrew Gatherer"
-    webpage: "https://www.linkedin.com/in/andrew-gatherer-72211862/"
-    github: GathererA
-    role: alum
-    image: /img/people/andrew.jpg
-    bio: SpaceX
-
-jan:
-    display_name: "Jan Bruedigam"
-    webpage: "https://www.ei.tum.de/en/itr/bruedigam/"
-    github: janbruedigam
-    role: alum
-    image: /img/people/jan.jpg
-    bio: PhD at TU Munich
-
-laura:
-    display_name: "Laura Lee"
-    webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: alum
-    image: /img/people/laura.jpg
-    bio: Boston Dynamics
-
-nathan:
-    display_name: "Nathan Kau"
-    webpage: "https://nathankau.com/"
-    role: ugrad-alum
-    image: /img/people/nathankau.jpg
-    bio: Woven Planet 
-
-tarun:
-    display_name: "Tarun Punnoose"
-    webpage: "https://punnoo.se/"
-    role: ugrad-alum
-    image: /img/people/tarun.jpg
-    bio: Waymo
-
-aaron:
-    display_name: "Aaron Schultz"
-    webpage: "https://www.linkedin.com/in/aaron-s-a4aa2685/"
-    role: ugrad-alum
-    image: /img/people/aaron.jpg
-    bio: Dexterity
-
-remy:
-    display_name: "Remy Derollez"
-    webpage: "https://www.linkedin.com/in/derollez-remy/"
-    github: Derollez
-    role: alum
-    image: /img/people/remy.jpg
-    bio: Loft Orbital
-
-jared:
-    display_name: "Jared Blanchard"
-    webpage: "https://jaredblanchard.com"
-    github: jared711
-    role: alum
-    image: /img/people/jared.jpg
-    bio: PhD at Stanford
-
-kevin:
-    display_name: "Kevin Tracy"
-    webpage: "https://www.kevintracy.info"
-    github: kevintracy7
-    role: phd
-    image: /img/people/kevin.jpg
-    bio: Optimization and Control
-
-swamig:
-    display_name: "Swaminathan Gurumurthy"
-    webpage: "https://swami1995.github.io/"
-    github: swami1995
-    role: phd
-    image: /img/people/swamig.png
-    bio: Deep Equilibrium Models
-
-benj:
-    display_name: "Benjamin Jensen"
-    webpage: "https://www.linkedin.com/in/benj-jensen/"
-    github: benjjensen
-    role: alum
-    image: /img/people/benj.jpg
-    bio: Johns Hopkins APL 
-    
-rianna:
-    display_name: "Rianna Jitosho"
-    webpage: "http://rjitosho.github.io/"
-    github: rjitosho
-    role: phd
-    image: /img/people/rianna.jpeg
-    bio: Motion Planning for Soft Robots
-
-suvansh:
-    display_name: "Suvansh Sanjeev"
-    webpage: "https://suvan.sh"
-    github: suvansh
-    role: alum
-    image: /img/people/suvansh.jpg
-    bio: Brilliantly
-    
-bbokser:
-    display_name: "Ben Bokser"
-    webpage: "https://benbokser.com"
-    github: bbokser
-    role: alum
-    image: /img/people/bbokser.jpg
-    bio: Boston Dynamics AI Institute
-
-
-shuo:
-    display_name: "Shuo Yang"
-    webpage: "https://shuoyangrobotics.github.io/"
-    github: ShuoYangRobotics
-    role: phd
-    image: /img/people/shuo.jpg
-    bio: Legged Robots State Estimation, Mapping and Control
-
-fausto:
-    display_name: "Fausto Vega"
-    webpage: "https://www.linkedin.com/in/fausto-vega/"
-    github: vegaf1
-    role: phd
-    image: /img/people/fausto.jpg
-    bio: Small Spacecraft and Navigation
-
-chiyen:
-    display_name: "Chiyen Lee"
-    webpage: "https://www.linkedin.com/in/chiyen-lee/" 
-    github: ChiyenLee
-    role: alum 
-    image: /img/people/chiyen.jpeg 
-    bio: Dextrous Robotics
-    
-alex:
-    display_name: "Alexander Bouman"
-    github: aabouman
-    role: alum 
-    image: /img/people/chiyen.jpeg 
-    bio: Dextrous Robotics
-
-brandon:
-    display_name: "Brandon Hung"
-    webpage: "https://brandonh.dev" 
-    github: BrandonHung343
-    role: alum
-    image: /img/people/brandonhung.jpg 
-    bio: Boston Dynamics AI Institute
-
-jbwillis:
-    display_name: "Jacob Willis"
-    webpage: "https://www.linkedin.com/in/jacob-willis/"
-    github: jbwillis
-    role: alum
-    image: /img/people/jacobwillis.jpg
-    bio: Albedo Space
-
-jj:
-    display_name: "Jeong Hun (JJ) Lee"
-    webpage: "https://www.linkedin.com/in/jeonghun-jj-lee"
-    github: jhlee0997
-    role: phd
-    image: /img/people/jj.jpg
-    bio: Swimming Dynamics and Control
-
-paulo:
-    display_name: "Paulo Fisch"
-    webpage: "https://www.linkedin.com/in/paulo-fisch"
-    github: Pfisch23
-    role: phd
-    image: /img/people/Paulo2.jpeg
-    bio: Small Satellite Vision and Localization
-
-mitch:
-    display_name: "Mitchell Fogelson"
-    webpage: "https://www.mitchellfogelson.com"
-    github: mfogelson
-    role: phd
-    image: /img/people/mitch.png
-    bio: Design and Control Optimization
-
-sofia:
-    display_name: "Sofia Kwok"
-    webpage: "https://sites.google.com/view/sofiakwok/"
-    github: sofiakwok
-    role: masters
-    image: /img/people/sofia.jpg
-    bio: Bipedal Optimization and Control
-
-zixin:
-    display_name: "Zixin Zhang"
-    webpage: "https://sites.google.com/view/zixinatom990/home"
-    github: Atom990
-    role: alum
-    image: /img/people/zixin.jpg
-    bio: PhD at Northwestern University
-    
-giusy:
-    display_name: "Giusy Falcone"
-    webpage: "https://gfalcon2.web.illinois.edu/"
-    github: gfalcon2
-    role: alum
-    image: /img/people/giusy.jpg
-    bio: Assistant Professor at University of Michigan
-
-john:
-    display_name: "John Zhang"
-    webpage: "https://johnzhang3.github.io/"
-    github: johnzhang3
-    role: masters
-    image: /img/people/john.jpg
-    bio: Contact-rich Simulation and Control
-
-khai:
-    display_name: "Khai Nguyen"
-    webpage: "https://xkhainguyen.github.io/"
-    github: xkhainguyen
-    role: masters
-    image: /img/people/khai.jpg
-    bio: Optimization-based Planning and Control
- 
-sam:
-    display_name: "Sam Schoedel"
-    webpage: "https://samschoedel.com/"
-    github: sschoedel
-    role: masters
-    image: /img/people/sam.jpg
-    bio: Optimization-based Planning and Control
-
-arun:
-    display_name: "Arun Bishop"
-    webpage: "https://www.linkedin.com/in/arun-bishop"
-    github: arunleob
-    role: phd
-    image: /img/people/arun.jpg
-    bio: Contact-rich Optimization and Control
-
-ibrahima:
-    display_name: "Ibrahima S. Sow"
-    webpage: "https://ibrassow.github.io/"
-    github: Ibrassow 
-    role: masters
-    image: /img/people/ibrahima.jpg
-    bio: Optimization and Spacecraft Guidance, Navigation, and Control
-
-
-prakrit:
-    display_name: "Prakrit Tyagi"
-    webpage: "https://prakrittyagi.github.io/"
-    github: prakrittyagi
-    role: masters
-    image: /img/people/prakrit.jpg
-    bio: Optimization and Control
-
-aaronT:
-    display_name: "Aaron Trowbridge"
-    webpage: "https://aarontrowbridge.github.io/"
-    github: aarontrowbridge 
-    role: staff
-    image: /img/people/AaronT.jpg
-    bio: Quantum Optimal Control
-
-anoushka:
-    display_name: "Anoushka Alavilli"
-    # webpage: "https://www.linkedin.com/in/ibrasw/"
-    # github:  
-    role: alum
-    image: /img/people/Anoushka.jpg
-    bio: NASA Jet Propulsion Laboratory (JPL)
-
-willK:
-    display_name: "Will Kraus"
-    webpage: "https://willkraus9.github.io/"
-    github: willkraus9 
-    role: masters
-    image: /img/people/WillKraus.png
-    bio: Planning and Control for Legged Robots
-
-juan:
-    display_name: "Juan Alvarez Padilla"
-    webpage: "https://www.linkedin.com/in/juan-alvarez-padilla/"
-    # github: Ibrassow 
-    role: phd
-    image: /img/people/JuanRodolfoRexLab.jpg
-    bio: Learning and Optimization Based Controls
-
-pedro:
-    display_name: "Pedro Andrade"
-    webpage: "https://www.linkedin.com/in/pedronrandrade/"
-    github:  
-    role: alum
-    image: /img/people/pedro.jpg
-    bio: Small Satellite Avionics and Control
-
-ashley:
-    display_name: "Ashley Kline"
-    webpage: "https://www.linkedin.com/in/ankline/"
-    github:  
-    role: masters
-    image: /img/people/ashley.jpeg
-    bio: Small Spacecraft Design and Navigation
-
-pedro2:
-    display_name: "Pedro Cachim"
-    webpage: "https://www.linkedin.com/in/pedro-rocha-cachim/"
-    github: prchall123
-    role: phd
-    image: /img/people/pedro2.jpg
-    bio: Spacecraft Guidance, Navigation and Control
-
-tae: 
-    display_name: "Tae Rugh"
-    webpage: "http://www.taerugh.com/"
-    github: taerugh
-    role: masters
-    image: /img/people/tae.jpg
-    bio: Robotic State Estimation and Control
-
-jon_arrizabalaga:
-    display_name: "Jon Arrizabalaga"
-    webpage: "https://jonarriza96.github.io/"
-    github:  
-    role: postdoc
-    image: /img/people/jonarrizabalaga.jpg
-    bio: Visiting from Technical University of Munich | Differential Geometry, Optimization and Control
-
-elakhya:
-    display_name: "Elakhya Nedumaran"
-    webpage: "https://www.linkedin.com/in/elakhya-nedumaran/ "
-    github:  
-    role: masters
-    image: /img/people/elakhya.png
-    bio: Optimization-based Control
-
-neil:
-    display_name: "Neil Khera"
-    webpage: "https://www.linkedin.com/in/neilkhera/"
-    github: NeilKhera 
-    role: staff
-    image: /img/people/Neil.jpg
-    bio: Small Satellite Hardware and Avionics
-# grad-a:
-#     display_name: "Grad A"
-#     role: grad
-
-# grad-b:
-#     display_name: "Graduate Student B With Long Name"
-#     role: grad
-
-# alum-a:
-#     display_name: "Alum A"
-#     role: alum
-#     bio: "Ph.D., 2013. Now at Microsoft Research."
-
-# alum-b:
-#     display_name: "Alum B With Way Longer Name"
-#     role: alum
-
-# alum-c:
-#     display_name: "Alum C"
-#     role: alum
-#     webpage: "https://www.google.com"
-
-# collab-a:
-#     display_name: "Collaborator A"
-#     role: collab
-
-# collab-b:
-#     display_name: "Collaborator B With Long Name"
-#     role: collab
-
-# ugrad-a:
-#     display_name: "Ugrad A"
-#     role: ugrad
-
-# ugrad-b:
-#     display_name: "Ugrad Student B With Long Name"
-#     role: ugrad
-
-# ugrad-alum-a:
-#     display_name: "Past Ugrad A"
-#     role: ugrad-alum
-
-# ugrad-alum-b:
-#     display_name: "Past Ugrad Student B With Long Name"
-#     role: ugrad-alum
+ashitava:
+    display_name: "Ashitava Ghosal"
+    webpage: "https://mecheng.iisc.ac.in/people/ashitava-ghosal/"
+    role: faculty
+    image: /img/people/ashitava.jpg
+    bio:  Professor
