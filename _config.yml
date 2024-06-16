@@ -1,5 +1,5 @@
 name: REx Lab
-url: https://encryptlab.github.io
+url: https://encrypt-lab.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
