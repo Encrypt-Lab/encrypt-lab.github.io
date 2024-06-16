@@ -1,280 +1,638 @@
-- title: "Design, development and experimental realization of a quadrupedal research platform :Stoch"
-  authors: [Dhaivat Dholakiya,  Shounak Bhattacharya,  Ajay Gunalan,  Abhik Singla,  Shalabh Bhatnagar,  Bharadwaj Amrutur,  Ashitava Ghosal,  Shishir Kolathaya]
-  date: 2019-04-20
+- title: "Contingency-Aware Station-Keeping Control of Halo Orbits"
+  authors: [fausto, zac, Martin Lo, Ricardo Restrepo]
+  publisher: Conference on Decision and Control
+  abbrv: CDC
   pub-type: conference
-  publisher: "IEEE International Conference on Control, Automation and Robotics (ICCAR) 2019"
-  pdf: Design.pdf
-  venue: Beijing, China
-  projects: [stochdesign]
+  venue: Milan, Italy
+  date: 2024-12-16
+  pdf: https://arxiv.org/pdf/2405.20458
+  status: In Review
 
-- title: "Realizing learned quadruped locomotion behaviors through kinematic motion primitives"
-  authors: [ Abhik Singla,  Shounak Bhattacharya, Dhaivat Dholakiya, Shalabh Bhatnagar,  Ashitava Ghosal,  Bharadwaj Amrutur,  Shishir Kolathaya]
-  date: 2019-05-28
+- title: "VINSat: Solving the Lost-in-Space Problem with Visual Inertial Navigation"
+  authors: [Kyle McCleary, Swaminathan Gurumurthy, Paulo Fisch, Saral Tayal, zac, Brandon Lucia]
+  publisher: IEEE International Conference on Robotics and Automation
+  abbrv: ICRA
   pub-type: conference
-  publisher: "IEEE International Conference on Robotics and Automation (ICRA) 2019"
-  pdf: Realizing learned.pdf
-  venue: Montreal, Canada
-  projects: [stochdesign]
-
-- title: "Trajectory based deep policy search for quadrupedal walking"
-  authors: [Shishir Kolathaya, Ashish Joglekar,  Suhan Shetty,  Dhaivat Dholakiya,  Aditya Sagi,  Shounak Bhattacharya,  Abhik Singla,  Shalabh Bhatnagar,  Ashitava Ghosal,  Bharadwaj Amrutur]
-  date: 2019-10-13
-  pub-type: conference
-  publisher: "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN) 2019"
-  pdf: "Trajectory based.pdf"
-  venue: New Delhi, India
-  projects: [Trajectoryopt]
-
-- title: "Energy based Control Barrier Functions for Robotic Systems"
-  authors: [Shishir Kolathaya]
-  date: 2020-08-21
-  pub-type: preprint
-  publisher: "TechArxiv"
-  pdf: "https://www.techrxiv.org/articles/preprint/Energy_based_Control_Barrier_Functions_for_Robotic_Systems/12831503"
-  projects: [EnergyCBF]
+  venue: Yokohama, Japan
+  date: 2024-05-15
+  pdf: Vinsat.pdf
+  status: Accepted
   
-- title: "Learning active spine behaviors for dynamic and efficient locomotion in quadruped robots"
-  authors: [Shounak Bhattacharya,  Abhik Singla,  Dhaivat Dholakiya,  Shalabh Bhatnagar,  Bharadwaj Amrutur,  Ashitava Ghosal,  Shishir Kolathaya]
-  date: 2019-10-14
+- title: "A Convex Formulation of the Soft-Capture Problem"
+  authors: [ibrahima, Geordan Gutow, Howie Choset, zac]
+  projects: [soft_capture]
+  publisher: IEEE International Conference on Space Robotics
+  abbrv: iSpaRo
   pub-type: conference
-  publisher: "IEEE International Conference on Robot & Human Interactive Communication (RO-MAN)"
-  pdf: Learning active.pdf
-  venue: New Delhi, India
-  projects: [spine]
+  venue: Luxembourg, Luxembourg
+  date: 2024-06-24
+  pdf: https://arxiv.org/pdf/2405.00867
+  status: Accepted
 
-- title: Learning Stable Manoeuvres in Quadruped Robots from Expert Demonstrations
-  authors: [Sashank Tirumala,  Sagar Gubbi, Kartik Paigwar, Aditya Sagi, Ashish Joglekar, Shalabh Bhatnagar, Ashitava Ghosal, Bharadwaj Amrutur, Shishir Kolathaya]
-  date: 2020-07-28
+- title: "Code Generation for Conic Model-Predictive Control on Microcontrollers with TinyMPC"
+  authors: [sam, khai, elakhya, Brian Plancher, zac]
+  projects: [tinympc]
+  publisher: Conference on Decision and Control
+  abbrv: CDC
   pub-type: conference
-  publisher: "IEEE International Conference on Robot & Human Interactive Communication (RO-MAN) 2020"
-  venue: Naples, Italy
-  pdf: Learning Stable.pdf
-  projects: [Augmented Random Search]
+  venue: Milan, Italy
+  date: 2024-12-16
+  pdf: tinympc_cdc24.pdf
+  status: In Review
+  
+- title: "Direct Collocation for Quantum Optimal Control"
+  authors: [aaronT, Aditya Bhardwaj, Kevin He, David I. Schuster, zac]
+  date: 2023-05-05
+  pub-type: conference
+  publisher: IEEE International Conference on Quantum Computing and Engineering 
+  pdf: https://arxiv.org/abs/2305.03261
+  venue: Seattle, WA
+  projects: [quantum]
+  status: Best Paper Award
 
-- title: Gait Library Synthesis for Quadruped Robots via Augmented Random Search
-  authors: [Sashank Tirumala, Aditya Sagi, Kartik Paigwar, Ashish Joglekar, Shalabh Bhatnagar, Ashitava Ghosal, Bharadwaj Amrutur, Shishir Kolathaya]
-  date: 2019-12-30
-  pub-type: preprint
+- title: "Building a Better B-Dot: Fast Detumbling with Non-Monotonic Lyapunov Functions"
+  authors: [jbwillis, paulo, Aleksei Seletskiy, zac]
+  publisher: IEEE Aerospace Conference
+  pub-type: conference
+  date: 2024-03-02
+  pdf: nonmonotonic_detumbling_ieee24.pdf
+  status: Accepted
+
+- title: "A Massively Parallel Method for Fast Computation of Invariant Manifolds"
+  authors: [fausto, Martin Lo, zac, Jon Sims]
+  publisher: IEEE Aerospace Conference
+  pub-type: conference
+  date: 2024-03-02
+  pdf: invmanifolds_ieee24.pdf
+  status: Accepted
+
+- title: "An Architecture Study for Low-Power Satellite-Based Wildlife Tracking"
+  authors: [fausto, James Phillips, Kathryn Lampo, Robert MacCurdy, zac]
+  publisher: IEEE Aerospace Conference
+  pub-type: conference
+  date: 2024-03-02
+  pdf: wildlife_ieee24.pdf
+  status: Accepted
+
+- title: "High-Expansion-Ratio Deployable Structures for Long Duration Space Missions"
+  authors: [mitch, Sawyer Thomas, giusy, Jeffery Lipton, zac]
+  projects: [herds]
+  publisher: IEEE Aerospace Conference
+  pub-type: conference
+  date: 2024-03-02
+  pdf: /HERDs_Fogelson_Thomas_Manchester_Lipton_Falcon_IEEE_Aero_01_12_24.pdf
+  status: Accepted
+
+- title: "Efficient Online Learning of Contact Force Models for Connector Insertion"
+  authors: [kevin, zac, Ajinkya Jain, Keegan Go, Stefan Schaal, Tom Erez, Yuval Tassa]
   publisher: arXiv
-  pdf: Gait Library.pdf
-  projects: [Augmented Random Search]
-
-- title: Robust Quadrupedal Locomotion on Sloped Terrains - A Linear Policy Approach
-  authors: [Kartik Paigwar, Lokesh Krishna, Sashank Tirumala, Naman Khetan, Aditya Sagi, Ashish Joglekar, Shalabh Bhatnagar, Ashitava Ghosal, Bharadwaj Amrutur, Shishir Kolathaya]
-  date: 2020-11-02
   pub-type: conference
-  publisher: "4th Conference on Robot Learning (CoRL 2020), Cambridge MA, USA"
-  pdf: CORL_2020.pdf
-  projects: [slope]
+  date: 2023-12-11
+  pdf: https://model-based-plugging.github.io/
+  status: In Review
 
-- title: Local Stability of PD Controlled Bipedal Walking Robots
-  authors: [Shishir Kolathaya]
-  date: 2020-04-01
+- title: "TinyMPC: Model-Predictive Control on Resource-Constrained Microcontrollers"
+  authors: [khai, sam, anoushka, Brian Plancher, zac]
+  projects: [tinympc]
+  publisher: International Conference on Robotics and Automation
+  abbrv: ICRA
+  pub-type: conference
+  venue: Yokohama, Japan
+  date: 2024-05-15
+  pdf: https://arxiv.org/abs/2310.16985
+  status: Accepted
+
+- title: "ReLU-QP: A GPU-Accelerated Quadratic Programming Solver for Model-Predictive Control"
+  authors: [arun, john, swamig, kevin, zac]
+  projects: [relu-qp]
+  publisher: International Conference on Robotics and Automation
+  abbrv: ICRA
+  pub-type: conference
+  venue: Yokohama, Japan
+  date: 2024-05-15
+  pdf: https://arxiv.org/abs/2311.18056
+  status: Accepted
+
+- title: "Fast Contact-Implicit Model-Predictive Control"
+  authors: [simon, taylor, shuo, chiyen, john, arun, Mac Schwager, zac]
+  date: 2023-08-23
   pub-type: journal
-  publisher: "Automatica"
-  pdf: kolathayapdbiped.pdf
-  projects: [ theory ]
+  publisher: IEEE Transactions on Robotics
+  pdf: contact_implicit_mpc_paper.pdf
+  projects: [ci_mpc]
+  status: Conditionally Accepted
 
-- title: Learning  Linear  Policies  for  Robust  Bipedal  Locomotionon  Terrains  with  Varying  Slopes
-  authors: [Lokesh Krishna, Utkarsh A Mishra, Guillermo A. Castillo, Ayonga Hereid, Shishir Kolathaya]
-  date: 2021-09-27
-  pub-type: conference
-  publisher: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2021"
-  pdf: IROS_2021.pdf
-  venue: Prague, Czech Republic
-  projects: [LinearPolicyBiped]
-
-- title: PD Tracking for a Class of Underactuated Robotic Systems With Kinetic Symmetry
-  authors: [Shishir Kolathaya]
-  date: 2021-07-01
+- title: "SLoMo: A General System for Legged Robot Motion Imitation from Casual Videos"
+  authors: [john, shuo, Gengshan Yang, arun, swamig, Deva Ramanan, zac]
+  date: 2024-05-15
+  publisher: IEEE
   pub-type: journal
-  publisher: "IEEE Control Systems Letters (L-CSS) & Conference on Decision and Control (CDC) 2020, Jeju Island, South Korea"
-  pdf: kolathaya_pd_tracking.pdf
-  projects: [ theory ]
+  publisher: Robotics and Automation Letters (RA-L) & International Conference on Robotics and Automation (ICRA)
+  venue: Yokohama, Japan
+  pdf: slomo.pdf
+  projects: [video_imitation]
 
-
-- title: Inverse Kinematics Analysis of Cassie Robot using Radial Basis Function Networks
-  authors: [Mukund Mitra, Suman Raj, Shishir Kolathaya]
-  date: 2021-09-01
+- title: "PPR: Physically Plausible Reconstruction from Monocular Videos"
+  authors: [Gengshan Yang, shuo, john, zac, Deva Ramanan]
+  date: 2023-10-04
+  publisher: IEEE
   pub-type: conference
-  publisher: "IEEE International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA) 2021"
-  pdf: inversekin_cassie_iria2021.pdf
-  projects: [ biped ]
+  publisher: IEEE International Conference on Computer Vision
+  abbrv: ICCV
+  venue: Paris, France 
+  pdf: ppr_physics_recon.pdf
+  projects: [video_imitation]
 
-
-- title: Motion Planning With Dynamic Obstacles Using Convexified Control Barrier Functions
-  authors: [VP Varun, AP Vinod, Shishir Kolathaya]
-  date: 2021-12-01
+- title: "Multi-IMU Proprioceptive Odometry for Legged Robots (Best Paper Award Finalist)"
+  authors: [shuo, zixin, bbokser, zac]
+  date: 2023-10-02
+  publisher: IEEE
   pub-type: conference
-  publisher: "IEEE Indian Control Conference (ICC) 2021, Mumbai, India"
-  pdf: convexified_cbf_icc2021.pdf
-  projects: [ theory ]
+  publisher: International Conference on Intelligent Robots and Systems
+  abbrv: IROS
+  venue: Detriot, MI 
+  pdf: foot_imu_iros2023.pdf
+  projects: [quad_estimation]
 
-
-- title: Coupled control Lyapunov functions for interconnected systems, with application to quadrupedal locomotion
-  authors: [Wen-Loong Ma, Noel Csomay-Shanklin, Shishir Kolathaya, Kaveh Akbari Hamed, Aaron D Ames]
-  date: 2021-05-01
-  pub-type: journal
-  publisher: "RA Letters & IEEE International Conference on Robotics and Automation (ICRA) 2021, Xi'an, China"
-  pdf: RAL21_CCS.pdf
-  projects: [ quadruped ]
-
-- title: Safety-Critical Kinematic Control of Robotic Systems
-  authors: [Andrew Singletary, Shishir Kolathaya, and Aaron D. Ames]
-  date: 2021-01-01
-  pub-type: journal
-  publisher: "L-CSS & American Control Conference (ACC) 2021, Virtually"
-  pdf: Safety_Critical_Kinematic_Control.pdf
-  projects: [ theory ]
-
-- title: Linear Policies are Sufficient to Realize Robust Bipedal Walking on Challenging Terrains
-  authors: [Lokesh Krishna, Guillermo A. Castillo, Utkarsh A Mishra, Ayonga Hereid, Shishir Kolathaya]
-  date: 2022-01-01
-  pub-type: journal
-  publisher: "RA-Letters & IEEE International Conference on Robotics and Automation (ICRA) 2022, Philadelphia, USA"
-  pdf: LinearPolicySuff.pdf
-  projects: [LinearPolicyBiped]
-
-- title: Dynamic Mirror Descent based Model Predictive Control for Accelerated Robot Learning
-  authors: [Utkarsh A Mishra, Soumya Rani, Prakhar Goel, Chandravaran Kunjeti, Himanshu Lodha, Aman Singh, Aditya Sagi, Shalabh Bhatnagar, Shishir Kolathaya]
-  date: 2022-01-01
+- title: "Aquarium: A Fully Differentiable Fluid-Structure Interaction Solver for Robotics Applications"
+  authors: [jj, Mike Y. Michelis, Robert Katzschmann, zac]
+  date: 2023-05-29
+  publisher: IEEE
   pub-type: conference
-  publisher: "IEEE International Conference on Robotics and Automation (ICRA) 2022, Philadelphia, USA"
-  pdf: dmdmpc_icra2022.pdf
-  projects: [DynamicMirrorDescentRL]
+  publisher: International Conference on Robotics and Automation
+  abbrv: ICRA
+  venue: London 
+  pdf: aquarium.pdf
+  projects: [aquarium]
 
-- title: Energy based Control Barrier functions for Robotic Manipulators with Large Safety Constraints
-  authors: [Yogita Choudhary, Shishir Kolathaya]
-  date: 2022-07-01
+- title: "Cerberus: Low-Drift Visual-Inertial-Leg Odometry For Agile Locomotion"
+  authors: [shuo, zixin, Zhengyu Fu, zac]
+  date: 2023-05-29
+  publisher: IEEE
   pub-type: conference
-  publisher: "European Controls Conference (ECC) 2022, London, UK"
-  pdf: EnCBF_Manipulator_ECC_2022.pdf
-  projects: [EnergyCBF]
+  publisher: International Conference on Robotics and Automation
+  abbrv: ICRA
+  venue: London 
+  pdf: cerberus.pdf
+  projects: [quad_estimation]
 
-- title: "Realising the role of arms on improving the stability bipedal robots"
-  authors: [Manan Tayal, Shishir Kolathaya]
-  date: 2022-07-01
+- title: "Enhanced Balance for Legged Robots Using Reaction Wheels"
+  authors: [chiyen, shuo, bbokser, zac]
+  date: 2023-05-29
+  publisher: IEEE
   pub-type: conference
-  publisher: "Pre-print"
-  pdf: biped_arm.pdf
-  projects: [LinearPolicyBiped]
-  
-- title: "Force Control for Robust Quadrupedal Locomotion: A Linear Policy Approach"
-  authors: [Aditya Shirwatkar*, Vamshi Kumar Kurva*, Devaraju Vinoda, Aman Singh, Aditya Sagi, Himanshu Lodha, Bhavya Giri Goswami, Shivam Sood, Ketan Nehete, Shishir Kolathaya]
+  publisher: International Conference on Robotics and Automation
+  abbrv: ICRA
+  venue: London 
+  pdf: reaction_wheel.pdf
+  projects: [reaction_wheel_quad]
+
+- title: "Differentiable Collision Detection for a Set of Convex Primitives"
+  authors: [kevin, taylor, zac]
   date: 2023-05-29
   pub-type: conference
-  publisher: "IEEE International Conference on Robotics and Automation (ICRA) 2023, London, UK"
-  pdf: force_lp_ICRA_2023.pdf
-  projects: [LinPolForceControlQuad]
+  publisher: International Conference on Robotics and Automation
+  abbrv: ICRA
+  venue: London 
+  pdf: dcol.pdf
+  projects: [dcol]
 
-- title: "Efficient Robot Hopping Mechanisms with Compliance Using Evolutionary Methods"
-  authors: [Pramod Pal, Anubhab Dasgupta, Avinash Bhashkar, Shishir Kolathaya, Ashitava Ghosal]
-  date: 2023-06-14
+- title: "Convex Optimization of Relative Orbit Maneuvers Using the Kustaanheimo-Stiefel Transformation"
+  authors: [jbwillis, zac]
+  date: 2023-03-04
+  publisher: IEEE Aerospace Conference.
   pub-type: conference
-  publisher: "International Conference on Robotics in Alpe-Adria Danube Region, 2023, Bled, Slovenia"
-  pdf: https://link.springer.com/chapter/10.1007/978-3-031-32606-6_53
-  projects: [ quadruped ]
+  venue: Big Sky, MT
+  pdf: ks_relative.pdf
 
-- title: "Optimum Design of a Compliant Foot for a Quadruped"
-  authors: [Pramod Pal, Anubhab Dasgupta, Shishir Kolathaya, Ashitava Ghosal]
-  date: 2023-07-05
+- title: "Robust Entry Guidance with Atmospheric Adaptation"
+  authors: [kevin, Giusy Falcone, zac]
+  date: 2023-01-23
+  publisher: AIAA SciTech Forum and Exposition.
   pub-type: conference
-  publisher: "6th International Conference of Advances In Robotics (AIR) 2023"
-  pdf: https://dl.acm.org/doi/pdf/10.1145/3610419.3610448
-  projects: [quadruped]
+  venue: National Harbor, MD
+  pdf: robust_edl_ktracy.pdf
 
-- title: "Realizing Linear Controllers for Quadruped Robots on Planetary"
-  authors: [Aditya Shirwatkar, Shamrao Garur, Vinod Kumar, Shishir Kolathaya]
-  date: 2023-07-05
+- title: "Data-Efficient Model Learning for Control with Jacobian-Regularized Dynamic Mode Decomposition"
+  authors: [brian, jj, kevin, zac]
+  date: 2022-09-12
+  publisher: The Conference on Robot Learning (CoRL)
   pub-type: conference
-  publisher: "6th International Conference of Advances In Robotics (AIR) 2023"
-  pdf: https://dl.acm.org/doi/pdf/10.1145/3610419.3610572
-  projects: [quadruped]
+  pdf: JDMD.pdf
+  projects: [jdmd]
 
-- title: "Safe Legged Locomotion using Collision Cone Control Barrier Functions (C3BFs)"
-  authors: [Manan Tayal, Shishir Kolathaya]
-  date: 2023-09-1
-  pub-type: conference
-  publisher: "Arxiv"
-  pdf: https://arxiv.org/pdf/2309.01898
-  projects: [CollisionConeCBF]
+- title: "Online Kinematic Calibration for Legged Robots"
+  authors: [shuo, Howie Choset, zac]
+  date: 2022-06-14
+  publisher: IEEE
+  pub-type: journal
+  publisher: IEEE Robotics and Automation Letters & IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  pdf: onlinecalib.pdf
+  projects: [quad_estimation]
 
-- title: "Off-Policy Average Reward Actor-Critic with Deterministic Policy Search"
-  authors: [Naman Saxena, Subhojyoti Khastagir, Shishir Kolathaya, Shalabh Bhatnagar]
-  date: 2023-07-25
+- title: "The V-R3x Mission: Towards Autonomous Networking and Navigation for CubeSat Swarms"
+  authors: [max, kevin, zac, Anh Nguyen]
+  date: 2022-05-19
+  publisher: The 4S Symposium.
   pub-type: conference
-  publisher: "International Conference on Machine Learning (ICML) 2023, Hawaii, US"
-  pdf: Average_Reward_ICML_2023.pdf
-  projects: [AverageRewardRL]
+  venue: Vilamoura, Portugal
+  pdf: vr3x.pdf
 
-- title: "MELP: Model Embedded Linear Policies for Robust Bipedal Hopping"
-  authors: [Raghav Soni, Guillermo A. Castillo, Lokesh Krishna, Ayonga Hereid, Shishir Kolathaya]
-  date: 2023-10-01
+- title: "CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints"
+  authors: [taylor, kevin, simon, zac]
+  date: 2022-05-08
+  publisher: arXiv
   pub-type: conference
-  publisher: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023, Detroit, USA"
-  pdf: melp.pdf
-  projects: [LinearPolicyBiped]
+  pdf: calipso.pdf
+  status: submitted
 
-- title: "Formation control of differential-drive robots with input saturation and constraints on formation size"
-  authors: [Ayush Agrawal, Mukunda Bharatheesha, Shishir Kolathaya]
-  date: 2023-12-13
+- title: "Dojo: A Differentiable Simulator for Robotics"
+  authors: [taylor, simon, Zico Kolter, Mac Schwager, zac]
+  date: 2022-03-07
+  publisher: arXiv
   pub-type: conference
-  publisher: "IEEE Conference on Decision and Control (CDC) 2023, Singapore"
-  pdf: formation_control.pdf
-  projects: [ theory ]
-  
-- title: "Collision Cone Control Barrier Functions for Kinematic Obstacle Avoidance in UGVs"
-  authors: [Phani Thontepu*, Bhavya Giri Goswami*, Manan Tayal, Neelaksh Singh, Shyam Sundar P I, Shyam Sundar M G, Suresh Sundaram, Vaibhav Katewa, Shishir Kolathaya]
-  date: 2023-12-18
-  pub-type: conference
-  publisher: "Indian Control Conference (ICC) 2023, Vishakhapatnam, India"
-  pdf: c3bf_icc.pdf
-  projects: [CollisionConeCBF]
+  pdf: dojo.pdf
+  status: submitted
 
-- title: "Reachability Analysis of UAVs through Cluttered Environments"
-  authors: [Kumar Ankit, Shrivathsa M S, Shishir Kolathaya, Debasish Ghose]
-  date: 2024-01-04
+- title: "CPEG: A Convex Predictor-corrector Entry Guidance Algorithm"
+  authors: [kevin, zac]
+  date: 2022-03-05
+  publisher: IEEE Aerospace Conference.
   pub-type: conference
-  publisher: "AIAA SCITECH 2024 Forum"
-  pdf: scitech_24.pdf
-  projects: [Reachability]
+  venue: Big Sky, MT
+  pdf: ktracy_cpeg.pdf
 
-- title: "Stoch BiRo: Design and Control of a low cost bipedal robot"
-  authors: [GVS Mothish*, Karthik Rajgopal*, Ravi Kola*, Manan Tayal, Shishir Kolathaya]
-  date: 2024-04-27
+- title: "Ultra-Fine Pointing for Nanosatellite Telescopes with Actuated Booms"
+  authors: [kevin, zac, Ewan Douglas]
+  date: 2022-03-05
+  publisher: IEEE Aerospace Conference.
   pub-type: conference
-  publisher: "IEEE International Conference on Control, Automation and Robotics (ICCAR) 2024, Singapore"
-  pdf: https://arxiv.org/pdf/2312.06512.pdf
-  projects: [StochBiRo]
+  venue: Big Sky, MT
+  pdf: ktracy_finepointing.pdf
 
-- title: "Barrier Functions Inspired Reward Shaping for Reinforcement Learning"
-  authors: [Nilaksh*, Abhishek Ranjan*, Shreenabh Agrawal*, Aayush Jain, Pushpak Jagtap, Shishir Kolathaya]
-  date: 2024-05-15
-  pub-type: conference
-  publisher: "IEEE International Conference on Robotics and Automation (ICRA) 2024, Yokohama, Japan"
-  pdf: https://arxiv.org/pdf/2403.01410v1.pdf
-  projects: [StochBiRo]
-  
-- title: "Polygonal Cone Control Barrier Functions (PolyC2BF) for safe navigation in cluttered environments"
-  authors: [Manan Tayal, Shishir Kolathaya]
-  date: 2024-06-27
-  pub-type: conference
-  publisher: "European Control Conference (ECC) 2024, Stockholm, Sweden"
-  pdf: https://arxiv.org/pdf/2311.08787.pdf
-  projects: [CollisionConeCBF]
+- title: "Trajectory Optimization with Optimization-Based Dynamics"
+  authors: [taylor, simon, Sumeet Singh, Pete Florence, zac, Vikas Sindhwani]
+  date: 2021-09-10
+  pub-type: journal
+  publisher: Robotics and Automation Letters
+  pdf: optimization_dynamics.pdf
+  projects: [optimization_dynamics]
 
-- title: "Control Barrier Functions in Dynamic UAVs for Kinematic Obstacle Avoidance: A Collision Cone Approach"
-  authors: [Manan Tayal, Rajpal Singh, Jishnu Keshavan, Shishir Kolathaya]
-  date: 2024-07-12
-  pub-type: conference
-  publisher: "American Control Conference (ACC) 2024, Toronto, Canada"
-  pdf: https://arxiv.org/pdf/2303.15871.pdf
-  projects: [CollisionConeCBF]
+- title: "Dynamic Biasing for Improved On-Orbit Total-Dose Lifetimes of Commercial Semiconductor Devices"
+  authors: [max, Thomas Heuser, zac, Debbie Senesky]
+  date: 2021-03-31
+  pub-type: journal
+  publisher: IEEE Transactions on Nuclear Science
+  abbrv: TNS
+  pdf: "https://doi.org/10.36227/techrxiv.14346839.v1"
+  projects: [radiation, pycubed]
+  status: Submitted
 
-- title: "Collision Cone Control Barrier Functions: Experimental Validation on UGVs for Kinematic Obstacle Avoidance"
-  authors: [Bhavya Giri Goswami*, Manan Tayal*, Karthik Rajgopal, Pushpak Jagtap, Shishir Kolathaya]
-  date: 2024-07-10
+- title: "Robust Quantum Optimal Control with Trajectory Optimization"
+  authors: [Thomas Propson, brian, Jens Koch, zac, David I Schuster]
+  date: 2021-03-29
+  pub-type: journal
+  publisher: arXiv
+  abbrv: arXiv
+  pdf: "https://arxiv.org/abs/2103.15716"
+
+
+- title: "ALGAMES: A Fast Augmented Lagrangian Solver for Constrained Dynamic Games"
+  authors: [simon, Mac Schwager, zac]
+  date: 2021-04-16
+  publisher: Autonomous Robots
+  pub-type: journal
+  abbrv: AuRo
+  pdf: algames_auro.pdf
+  projects: [ALGAMES]
+  status: Accepted
+
+- title: Low-Thrust Trajectory Optimization Using the Kustaanheimo-Stiefel Transformation
+  authors: [kevin, zac]
+  date: 2021-02-01
   pub-type: conference
-  publisher: "American Control Conference (ACC) 2024, Toronto, Canada"
-  pdf: https://arxiv.org/pdf/2303.15871.pdf
-  projects: [CollisionConeCBF]
+  publisher: AAS/AIAA Space Flight Mechanics Meeting. 
+  venue: Charlotte, NC
+  pdf: ks_low_thrust.pdf
+  projects: [lowthrust]
+
+- title: Planning with Attitude
+  authors: [brian, kevin, zac]
+  date: 2021-05-30
+  pub-type: journal 
+  publisher: Robotics Automation and Letters 
+  abbrv: RAL 
+  pdf: planning_with_attitude.pdf
+  projects: [trajopt]
+  status: Accepted 
+
+- title: "ALTRO-C: A Fast Solver for Conic Model-Predictive Control"
+  authors: [brian, tarun, Daniel Neamati, kevin, rianna, zac]
+  date: 2021-05-30
+  pub-type: conference
+  publisher: International Conference on Robotics and Automation
+  abbrv: ICRA
+  pdf: ALTRO_MPC.pdf
+  projects: [trajopt]
+
+- title: Robust Entry Vehicle Guidance with Sampling-Based Invariant Funnels
+  authors: [remy, simon, zac]
+  date: 2021-03-06
+  publisher: IEEE Aerospace Conference
+  pub-type: conference
+  abbrv: AeroConf2021
+  venue: Big Sky, MT
+  pdf: sampling_funnel.pdf
+  projects: [robust]
+
+- title: "LUCIDGames: Online Unscented Inverse Dynamic Games for Adaptive Trajectory Prediction and Planning"
+  authors: [simon, Mac Schwager, zac]
+  date: 2021-05-30
+  publisher: Robotics Automation and Letters 
+  pub-type: journal
+  abbrv: RAL
+  pdf: LUCIDgames.pdf
+  projects: [ALGAMES]
+  status: Accepted 
+
+- title: Direct Policy Optimization using Deterministic Sampling and Collocation
+  authors: [taylor, Chunjiang Fu, zac]
+  date: 2021-05-30
+  publisher: International Conference on Robotics and Automation
+  pub-type: conference
+  abbrv: ICRA
+  venue: Xi'an, China
+  pdf: dpo.pdf
+  projects: [dpo]
+
+- title: Linear-Quadratic Optimal Control in Maximal Coordinates
+  authors: [jan, zac]
+  date: 2021-05-30
+  publisher: International Conference on Robotics and Automation
+  pub-type: conference
+  abbrv: ICRA
+  venue: Xi'an, China
+  pdf: maximal_coordinate_control.pdf
+  projects: [quadrupeds]
+
+- title: A Dynamics Simulator for Soft Growing Robots
+  authors: [rianna, Nathaniel Agharese, Allison Okamura, zac]
+  date: 2021-05-30
+  publisher: International Conference on Robotics and Automation
+  pub-type: conference
+  abbrv: ICRA
+  venue: Xi'an, China
+  pdf: Vine_Simulator.pdf
+  projects: [vinerobot]
+
+- title: "Model-Predictive Attitude Control for Flexible Spacecraft During Thruster Firings"
+  authors: [kevin, zac]
+  date: 2020-08-09
+  pub-type: conference
+  publisher: "AAS/AIAA Astrodynamics Specialist Conference."
+  pdf: Flexible_MPC.pdf
+  venue: South Lake Tahoe, CA
+
+- title: "ALGAMES: A Fast Solver for Constrained Dynamic Games"
+  authors: [simon, Mac Schwager, zac]
+  date: 2020-07-12
+  pub-type: conference
+  publisher: "Robotics: Science and Systems"
+  abbrv: RSS
+  pdf: ALGAMES.pdf
+  venue: Corvallis, OR
+  projects: [ALGAMES]
+
+- title: "Structured Mechanical Models for Robot Learning and Control"
+  authors: [Jayesh Gupta, Kunal Menda, zac, Mykel Kochenderfer]
+  date: 2020-06-11
+  pub-type: conference
+  publisher: "Conference on Learning for Dynamics and Control"
+  abbrv: L4DC
+  pdf: "https://arxiv.org/pdf/2004.10301.pdf"
+  venue: Berkeley, CA
+
+- title: "Sample-Based Robust Uncertainty Propagation for Entry Vehicles"
+  authors: [remy, zac]
+  date: 2020-02-03
+  pub-type: conference
+  publisher: "AAS Guidance, Navigation, and Control Conference"
+  pdf: AAS_GNC_EntryVehicle.pdf
+  venue: Breckenridge, CO
+  projects: [robust]
+
+- title: Scalable Cooperative Transport of Cable-Suspended Loads with UAV's using Distributed Trajectory Optimization
+  authors: [brian, taylor, Kunal Shah, Mac Schwager, zac]
+  date: 2020-05-31
+  pub-type: conference
+  publisher: International Conference on Robotics and Automation
+  abbrv: ICRA
+  venue: Paris, France
+  pdf: distributed_quads.pdf
+  projects: [multirobot,trajopt]
+
+- title: Linear-Time Variational Integrators in Maximal Coordinates
+  authors: [jan, zac]
+  date: 2020-06-15
+  publisher: Workshop on the Algorithmic Foundations of Robotics
+  pub-type: conference
+  abbrv: WAFR
+  venue: Oulu, Finland
+  pdf: maximal_coordinate_dynamics.pdf
+  projects: [quadrupeds]
+
+- title: "ALTRO: A Fast Solver for Constrained Trajectory Optimization"
+  authors: [taylor, brian, zac]
+  date: 2019-11-03
+  pub-type: conference
+  publisher: International Conference on Intelligent Robots and Systems
+  abbrv: IROS
+  venue: Macao, China
+  pdf: altro-iros.pdf
+  projects: [trajopt]
+
+- title: Fast Solution of Optimal Control Problems with L1 Cost
+  authors: [simon, zac]
+  date: 2019-08-11
+  pub-type: conference
+  publisher: AAS/AIAA Astrodynamics Specialist Conference
+  venue: Portland, Maine
+  pdf: l1-cost-optimizer.pdf
+  projects: [l1cost]
+
+- title: "Bilevel Optimization for Planning through Contact: A Semidirect Method"
+  authors: [Benoit Landry, Joseph Lorenzetti, zac, Marco Pavone]
+  date: 2019-10-06
+  publisher: Internation Symposium on Robotics Research
+  abbrv: ISRR
+  venue: Hanoi, Vietnam
+  pdf: "https://arxiv.org/pdf/1906.04292.pdf"
+
+- title: Magnetorquer-Only Attitude Control of Small Satellites using Trajectory Optimization
+  authors: [andrew, zac]
+  date: 2019-08-11
+  pub-type: conference
+  publisher: AAS/AIAA Astrodynamics Specialist Conference
+  venue: Portland, Maine
+  pdf: magnetorquer_only.pdf
+  projects: [underactuated]
+
+- title: "PyCubed: An Open-Source, Radiation-Tested CubeSat Platform Programmable Entirely in Python"
+  authors: [max, Andrea Ramirez, Connor Settle, Tane Tatum, Debbie Senesky, zac]
+  date: 2019-08-01
+  pub-type: conference
+  publisher: AIAA/USU Conference on Small Satellites
+  abbrv: SmallSat
+  venue: Logan, Utah
+  pdf: PyCubed-SmallSat.pdf
+  projects: [radiation, pycubed, kicksat]
+
+- title: A Differentiable Augmented Lagrangian Method for Bilevel Nonlinear Optimization
+  authors: [Benoit Landry, zac, Marco Pavone]
+  date: 2019-06-22
+  publisher: "Robotics: Science and Systems"
+  abbrv: RSS
+  venue: Freiburg, Germany
+  pdf: "https://arxiv.org/pdf/1902.03319.pdf"
+
+- title: "Contact-Implicit Trajectory Optimization Using Variational Integrators"
+  authors: [zac, Neel Doshi, Robert J Wood, Scott Kuindersma]
+  date: 2019-05-01
+  publisher: The International Journal of Robotics Research
+  abbrv: IJRR
+  pub-type: article
+  pdf: "https://journals.sagepub.com/doi/10.1177/0278364919849235"
+  projects: [contact]
+
+- title: A General Framework for Structured Learning of Mechanical Systems
+  authors: [Jayesh K. Gupta, Kunal Menda, zac, Mykel J. Kochenderfer]
+  date: 2019-02-01
+  publisher: arXiv
+  pub-type: arXiv
+  pdf: "https://arxiv.org/pdf/1902.08705.pdf"
+
+- title: Robust Direct Trajectory Optimization Using Approximate Invariant Funnels
+  authors: [zac, Scott Kuindersma]
+  date: 2018-07-01
+  publisher: Autonomous Robots
+  pub-type: article
+  pdf: dirtrel-auro.pdf
+  projects: [robust]
+
+- title: Contact-Implicit Optimization of Locomotion Trajectories for a Quadrupedal Microrobot
+  authors: [Neel Doshi, Kaushik Jayaram, Benjamin Goldberg, zac, Robert J Wood, Scott Kuindersma]
+  date: 2018-06-01
+  pub-type: conference
+  publisher: "Robotics: Science and Systems"
+  abbrv: RSS
+  venue: Pittsburgh, Pennsylvania
+  pdf: hamr-trajopt.pdf
+  projects: [contact]
+
+- title: Handedness in Shearing Auxetics Creates Rigid and Compliant Structures
+  authors: [Jeffery Ian Lipton, Robert MacCurdy, zac, Lillian Chin, Daniel Cellucci, Daniela Rus]
+  date: 2018-05-01
+  pub-type: article
+  publisher: Science 360(6389)
+  pdf: "https://science.sciencemag.org/content/360/6389/632"
+
+- title: Variational Contact-Implicit Trajectory Optimization
+  authors: [zac, Scott Kuindersma]
+  date: 2017-12-01
+  pub-type: conference
+  publisher: International Symposium on Robotics Research
+  venue: Puerto Varas, Chile
+  abbrv: ISRR
+  pdf: Variational_Contact.pdf
+  projects: [contact]
+
+- title: Constrained Unscented Dynamic Programming
+  authors: [Brian Plancher, zac, Scott Kuindersma]
+  date: 2017-09-24
+  pub-type: conference
+  publisher: International Conference on Intelligent Robots and Systems
+  abbrv: IROS
+  venue: Vancouver, Canada
+  pdf: constrained-udp.pdf
+  projects: [trajopt]
+
+- title: "DIRTREL: Robust Trajectory Optimization with Ellipsoidal Distrubances and LQR Feedback"
+  authors: [zac, Scott Kuindersma]
+  date: 2017-07-12
+  pub-type: conference
+  publisher: "Robotics: Science and Systems"
+  abbrv: RSS
+  venue: Cambridge, Massachusetts
+  pdf: dirtrel.pdf
+  projects: [robust]
+
+- title: "Planning Cuts for Mobile Robots with Bladed Tools"
+  authors: [Jeffery Lipton, zac, Daniela Rus]
+  date: 2017-06-01
+  pub-type: conference
+  publisher: International Conference on Robotics and Automation
+  abbrv: ICRA
+  venue: Singapore
+  pdf: Robot_Saw.pdf
+
+- title: Stability of a Light Sail Riding on a Laser Beam
+  authors: [zac, Abraham Loeb]
+  date: 2017-03-01
+  pub-type: article
+  publisher: The Astrophysical Journal 837(2)
+  pdf: "https://arxiv.org/pdf/1609.09506.pdf"
+
+- title: A Variable Forward-Sweep Wing Design for Enhanced Perching in Micro Aerial Vehicles
+  authors: [zac, Jeffery Lipton, Robert Wood, Scott Kuindersma]
+  date: 2017-01-01
+  pub-type: conference
+  publisher: AIAA Aerospace Sciences Meeting
+  venue: Grapevine, Texas
+  pdf: Morphing_Wing.pdf
+
+- title: Recursive Inertia Estimation With Semidefinite Programming
+  authors: [zac, Mason Peck]
+  date: 2017-01-01
+  pub-type: conference
+  publisher: AIAA Guidance, Navigation and Control Conference
+  venue: Grapevine, Texas
+  pdf: Inertia_Estimation.pdf
+
+- title: Derivative-Free Trajectory Optimization with Unscented Dynamic Programming
+  authors: [zac, Scott Kuindersma]
+  date: 2016-12-01
+  publisher: IEEE Conference on Decision and Control
+  abbrv: CDC
+  venue: Las Vegas, Nevada
+  pdf: udp.pdf
+
+- title: "How Do You Fly to Alpha Centauri in Just 20 Years? Ride a Laser Beam"
+  authors: [zac]
+  date: 2016-06-01
+  pub-type: article
+  publisher: IEEE Spectrum
+  pdf: "https://spectrum.ieee.org/tech-talk/aerospace/space-flight/how-do-you-fly-to-alpha-centauri-in-just-20-years-ride-a-laser-beam"
+
+- title: Lyapunov-Based Control for Flat-Spin Recovery and Spin Inversion of Spin-Stabilized Spacecraft
+  authors: [zac]
+  date: 2016-02-01
+  pub-type: conference
+  publisher: AAS/AIAA Astrodynamics Specialist Conference
+  venue: Long Beach, California
+  pdf: Spin_Control.pdf
+
+- title: Quaternion Variational Integrators for Spacecraft Dynamics
+  authors: [zac, Mason Peck]
+  date: 2016-01-01
+  pub-type: article
+  publisher: Journal of Guidance, Control, and Dynamics 39(1)
+  pdf: Variational_Integrator.pdf
+
+- title: "KickSat: A Crowd-Funded Mission to Demonstrate the World's Smallest Spacecraft"
+  authors: [zac, Mason Peck, Andrew Filo]
+  date: 2013-08-01
+  pub-type: conference
+  publisher: AIAA/USU Conference on Small Satellites
+  venue: Logan, Utah
+  pdf: KickSat_SmallSat.pdf
+  projects: [kicksat]
