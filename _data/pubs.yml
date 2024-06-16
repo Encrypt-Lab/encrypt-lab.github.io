@@ -830,13 +830,13 @@
   pdf: https://dl.acm.org/doi/pdf/10.1145/3610419.3610572
   projects: [quadruped]
 
-- title: "Safe Legged Locomotion using Collision Cone Control Barrier Functions (C3BFs)"
-  authors: [Manan Tayal, Shishir Kolathaya]
-  date: 2023-09-1
-  pub-type: conference
-  publisher: "Arxiv"
-  pdf: https://arxiv.org/pdf/2309.01898
-  projects: [CollisionConeCBF]
+# - title: "Safe Legged Locomotion using Collision Cone Control Barrier Functions (C3BFs)"
+#   authors: [Manan Tayal, Shishir Kolathaya]
+#   date: 2023-09-1
+#   pub-type: conference
+#   publisher: "Arxiv"
+#   pdf: https://arxiv.org/pdf/2309.01898
+#   projects: [CollisionConeCBF]
 
 - title: "Off-Policy Average Reward Actor-Critic with Deterministic Policy Search"
   authors: [Naman Saxena, Subhojyoti Khastagir, Shishir Kolathaya, Shalabh Bhatnagar]
